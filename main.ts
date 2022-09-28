@@ -5,5 +5,6 @@ basic.forever(function () {
         basic.showNumber(hungryness)
     } else if (input.buttonIsPressed(Button.B)) {
         hungryness = 0
+        basic.showNumber(hungryness)
     }
 })
